@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    height: 35px;
+}
+
+
+header
+{
+    background-color: #9ddbdb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    height: 120px;
+}
+
+#buttonsNav
+{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+
+#movieInfo{
+    display: block;
+    margin-top: 20px;
+}
+
+th, td{
+    
+    padding: 10px;
+}
+
+#filme{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#imageMain{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#Js{
+    height: 400px;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+#buttonMain{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    background-color:#e7532d ;
+    border: none;
+    color: white;
+    font-size: 20px;   
+    padding: 20px 20px;
+}
+
+
+
+
+
+
+
+
+
+footer
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 20%;
+    width: 100%;
+    background-color: #e7532d;
+}
+
+#verticle-line
+{
+    width: 1px;
+    height: 80%;
+    background-color: white;
+
+}
+
+#leftFooter
+{
+    display: flex;
+    width: 45%;
+    justify-content: flex-end;
+}
+
+#rightFooter
+{
+    width: 45%;
+}
+
